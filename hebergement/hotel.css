@@ -1,0 +1,129 @@
+.header-in{
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    padding: 105px 0px 0px 0px;
+}
+
+.header-in ul li h1{
+    color: #de9d35;
+    
+}
+/*Hotels mise en page*/
+.hotel a{
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+.hotel a:hover{
+    padding: 50px 10px 50px 10px;
+    transition: 0.3s linear;
+}
+.hotel{
+    position: relative;
+    /*background-color: rgba(0, 0, 0, 0.6);*/
+}
+.hotel::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity 0.3s linear;
+    opacity: 0;
+  }
+.hotel:hover::before{
+    opacity: 1;
+}
+/*Hôtel Kyriad*/
+.kyriad {
+    background: linear-gradient(70deg, rgba(0, 0, 205, 0.6),rgba(0, 0, 0, 0.6));
+}
+.kyriad::before {
+    background: linear-gradient(70deg, rgba(0, 0, 205, 1),rgba(0, 0, 0, 0.6));
+}
+/*Hôtel City-Loft*/
+.city {
+    background: linear-gradient(70deg,rgba(0, 0, 0, 0.6), rgba(250, 50, 100, 0.6));
+}
+.city::before {
+    background: linear-gradient(70deg,rgba(0, 0, 0, 0.6), rgba(250, 50, 100, 1));
+}
+
+/*Hôtel Astoria*/
+.Astoria{
+    background: linear-gradient(70deg, rgba(220, 80, 250, 0.6),rgba(0, 0, 0, 0.6));
+}
+.Astoria::before {
+    background: linear-gradient(70deg, rgba(220, 80, 250, 1),rgba(0, 0, 0, 0.6));
+}
+
+/*cadre image logo Hôtel*/
+.image_hotel2n{
+    clip-path: polygon(0% 0%,100% 7%,92% 93%, 7% 99%);
+    width: 25vw;
+    height: fit-content;
+    margin: auto;
+}
+
+.image_hotel2n1{
+    clip-path: polygon(0 7%, 100% 0%, 93% 99%, 8% 93%);
+    width: 25vw;
+    height: fit-content;
+    margin: auto;
+}
+/*style texte associé à l'Hôtel partenaire*/
+.txt_hotel{
+    margin: auto;
+    width: 50%;
+    padding: 80px 0 80px 0;
+}
+.txt_hotel p{
+    color: #ddcbae;
+}
+.txt_hotel ul li{
+    color: #ddcbae;
+    list-style: url('/media/examples/rocket.svg') inside;
+    margin-left: 10px;
+}
+
+.presentation-hotels{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+ /*footer*/
+footer{
+    background-color: rgba(10, 20, 10, 0.9);
+    border-top: 5px #de9d35 solid;
+}
+
+.footer-in{
+    position: center;
+    margin: auto;
+    max-width: max-content;
+    margin-bottom: 15px;
+}
+
+footer p{
+    color:#ddcbae;
+    margin-bottom: 15px;
+}
+
+.footer-in a img{
+    width: 30px;
+    height: auto;
+}
+
+@media screen and (max-width: 750px) {
+    .image_hotel2n{
+        display: none;
+    }
+    
+    .image_hotel2n1{
+        display: none;
+    }
+    .txt_hotel{
+        width: 80%;
+    }
+}

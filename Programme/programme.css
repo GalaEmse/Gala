@@ -1,0 +1,47 @@
+.header-in{
+    /*background-color: rgba(0, 0, 0, 0.4);*/
+    padding: 120px 0px 0px 0px;
+}
+
+.navbar-fond{
+    background-color: rgba(10, 20, 10, 0.7);
+}
+
+.feuille{
+    background-color: black;
+    background-image: url(../img/logo5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30vh;
+    box-shadow: 0px 0px 10px 10px gold;
+    padding: 20px;
+    margin: auto;
+    /*temp*/
+    width: 56.6vh;
+    height: 80vh;
+    text-align: center;
+}
+
+.feuille ul li{
+    margin: 95px;
+}
+
+.feuille p{
+    color: #ddcbae;
+}
+
+/* bas de page*/
+.footer-in{
+    margin: auto;
+    padding: 8px;
+    max-width: fit-content;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: black;
+    border-radius: 20px;
+}
+
+.footer-in a img{
+    width: 30px;
+    height: auto;
+}

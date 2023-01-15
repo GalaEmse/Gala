@@ -1,0 +1,50 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*footer*/
+ footer{
+    background-color: rgba(10, 20, 10, 0.9);
+    border-top: 5px #de9d35 solid;
+}
+
+.footer-in{
+    position: center;
+    margin: auto;
+    max-width: max-content;
+    margin-bottom: 15px;
+}
+
+footer p{
+    color:#ddcbae;
+    margin-bottom: 15px;
+}
+
+.footer-in a img{
+    width: 30px;
+    height: auto;
+}

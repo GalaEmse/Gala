@@ -1,0 +1,54 @@
+.header-in{
+    justify-content: center;
+}
+
+.footer-in{
+    margin: auto;
+    padding: 8px;
+    max-width: fit-content;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: black;
+    border-radius: 20px;
+}
+
+.footer-in a img{
+    width: 30px;
+    height: auto;
+}
+
+.transport-body{
+    background-color: rgba(10, 20, 10, 0.8);;
+    border: 2px solid rgba(10, 20, 10, 1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
+}
+
+.transport-info{
+    padding: 20px;
+    margin: 10px;
+}
+
+.transport-info > ul >li{
+    color: #ddcbae;
+    list-style: url('/media/examples/rocket.svg') inside;
+    margin-left: 10px;
+}
+
+.alerte{
+    background-color: rgba(80, 0, 0, 0.4);
+    border: 2px solid rgba(50, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px) {
+    .annonce-gala img{
+        width: 100%;
+    }
+}

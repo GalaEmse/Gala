@@ -1,0 +1,36 @@
+.annonce-gala{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.annonce-gala img{
+    margin: auto;
+    width: 70%;
+}
+.header-in{
+    justify-content: center;
+}
+
+.footer-in{
+    margin: auto;
+    padding: 8px;
+    max-width: fit-content;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: black;
+    border-radius: 20px;
+}
+
+.footer-in a img{
+    width: 30px;
+    height: auto;
+}
+
+
+@media screen and (max-width: 900px) {
+    .annonce-gala img{
+        width: 100%;
+    }
+}
