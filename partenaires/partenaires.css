@@ -1,5 +1,19 @@
-
-
+.containeur{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+.partenaire{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 14px;
+    border: solid 2px gold;
+    background-color: rgba(10, 20, 10, 0.9);
+}
+.partenaire:hover{
+    color: black;
+}
 
 
 
