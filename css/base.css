@@ -85,6 +85,7 @@ header{
 
 .nav-links > ul > li > a{
     padding: 30px 40px;
+    text-align: center;
 }
 
 .nav-links ul li a:hover{
