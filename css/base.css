@@ -50,7 +50,7 @@ header{
     width: 100%;
     border-bottom: 5px solid;
     background-color: rgba(10, 20, 10, 0.7);
-    border-color: rgb(255,215,0);
+    border-color: rgb(255,195,75);
 }
 
 .navbar a{
@@ -89,17 +89,12 @@ header{
 }
 
 .nav-links ul li a:hover{
-    color: gold;
-    font-weight: bold;
+    color: rgb(255,195,75);
+    /*font-weight: bold;*/
 }
 .deroulant:hover .sous-deroulant li{
     display:block;
 }
-
-/*
-.deroulant:hover{
-    border: 5px gold solid;
-}*/
 
 .sous-deroulant > li{
     display: none;
@@ -118,15 +113,27 @@ header{
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.4);
 }
-.deroulant > a::after{
+.deroulant-resp::after{
     position: relative;
     content:" ▼";
     font-size: 12px;
 }
+
+.deroulant-resp{
+    margin-right: 30px;
+    margin-left: 30px;
+    background: none;
+	color: white;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 /*fin menu*/
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1021px) {
     .navbar{
         padding: 0px;
     }
@@ -160,8 +167,8 @@ header{
     .navbar .menu-hamburger{
         display: block;
     }
-    .navbar .nav-links ul li{
-        margin: 7vh;
+    .navbar>.nav-links>ul>li{
+        margin: 3vh;
         font-size: 1.2em;
     }
 }
