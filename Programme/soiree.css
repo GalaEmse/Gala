@@ -19,8 +19,8 @@
 }
 
 .feuille ul li{
-    margin-top: calc((100vh/12) - 35px);
-    margin-bottom: calc((100vh/12) - 35px);
+    margin-top: calc(35px);
+    margin-bottom: calc(35px);
 }
 .feuille h1{
     color: #ddcbae;
@@ -29,7 +29,15 @@
     color: #ddcbae;
 }
 .feuille p{
-    color: black;
+    color: #ddcbae;
+}
+.groupes_dj{
+    display: flex;
+    flex-direction: row;
+}
+.groupes_dj img{
+    width: 30%;
+    height: 25%;
 }
 
 /* bas de page*/

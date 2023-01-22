@@ -19,8 +19,8 @@
 }
 
 .feuille ul li{
-    margin-top: calc((100vh/12) - 35px);
-    margin-bottom: calc((100vh/12) - 35px);
+    margin-top: calc((50vh/7) - 35px);
+    margin-bottom: calc((50vh/7) - 35px);
 }
 .feuille h1{
     color: #ddcbae;
@@ -29,7 +29,10 @@
     color: #ddcbae;
 }
 .feuille p{
-    color: black;
+    color: #ddcbae;
+}
+.feuille iframe{
+    margin-top: 10px;
 }
 
 /* bas de page*/
@@ -57,5 +60,8 @@
     }
     .feuille p{
         font-size: 0.8em;
+    }
+    .feuille iframe{
+        width: 100%;
     }
 }
