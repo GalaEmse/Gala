@@ -9,6 +9,7 @@
   de remise des diplômes. C’est l’occasion pour les Mineurs de se rassembler en compagne de leur famille,
   des Alumnis et enseignants de l’Ecole."
   />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="./programme.css">
@@ -18,14 +19,22 @@
 <body>
   <div class="navbar-fond"></div>
   <nav class="navbar">
-    <a href="#" class="logo">Gala</a>
+    <a href="../index.html" class="logo">Gala</a>
     <div class="nav-links">
       <ul>
         <li><a href="../index.html">Accueil</a></li>
-        <li><a href="#">Programme</a></li>
+        <li class="deroulant"><button class="deroulant-resp" onclick="visible()">Programme</button>
+          <ul class="sous-deroulant">
+            <li><a href="#">programme</a></li>
+            <li><a href="./diner.html">Dîner</a></li>
+            <li><a href="./spectacle.html">Spectacle</a></li>
+            <li><a href="./soiree.html">Soirée</a></li>
+          </ul>
+        </li>
         <li><a href="../hebergement/hotel.html">Hébergement</a></li>
-        <li><a href="#">Transport</a></li>
-        <li><a href="#">Partenaires</a></li>
+        <li><a href="../transport/transport.html">Transport</a></li>
+        <li><a href="../billeterie/billeterie.html">Billeterie</a></li>
+        <li><a href="../partenaires/partenaires.html">Partenaires</a></li>
       </ul>
     </div>
     <img src="../img/menu-btn.png" alt="" class="menu-hamburger">
@@ -77,7 +86,7 @@
         <a href="https://www.linkedin.com/company/gala-mines-saint-etienne/about/">
           <img src="../img/lkdin-icon.png" alt="">
         </a>
-        <a href="#">
+        <a href="https://www.youtube.com/@galaillumines8742">
           <img src="../img/youtube-icon.png" alt="">
         </a>
         <a href="mailto:%20gala@emse.fr">

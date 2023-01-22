@@ -8,24 +8,23 @@
 }
 
 .feuille{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
     background-image: url(../img/logo5.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30vh;
-    box-shadow: 0px 0px 10px 10px gold;
+    box-shadow: 0px 0px 10px 10px rgb(255,195,75);
     padding: 20px;
     margin: auto;
     /*temp*/
-    width: 56.6vh;
-    height: 80vh;
+    width: 50.6vh;
     text-align: center;
 }
 
 .feuille ul li{
-    margin: 95px;
+    margin-top: calc((100vh/12) - 35px);
+    margin-bottom: calc((100vh/12) - 35px);
 }
-
 .feuille p{
     color: #ddcbae;
 }
@@ -44,4 +43,16 @@
 .footer-in a img{
     width: 30px;
     height: auto;
+}
+
+@media screen and (max-width: 666px) {
+    .feuille{
+        width: 80vw;
+    }
+    .feuille h1{
+        font-size: 1.2em;
+    }
+    .feuille p{
+        font-size: 0.8em;
+    }
 }

@@ -29,7 +29,7 @@
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1021px) {
     .annonce-gala img{
         width: 100%;
     }

@@ -9,23 +9,32 @@
   de remise des diplômes. C’est l’occasion pour les Mineurs de se rassembler en compagne de leur famille,
   des Alumnis et enseignants de l’Ecole."
   />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="../css/base.css">
-  <link rel="stylesheet" href="./programme.css">
+  <link rel="stylesheet" href="./diner.css">
 </head>
 
 
 <body>
   <div class="navbar-fond"></div>
   <nav class="navbar">
-    <a href="#" class="logo">Gala</a>
+    <a href="../index.html" class="logo">Gala</a>
     <div class="nav-links">
       <ul>
         <li><a href="../index.html">Accueil</a></li>
-        <li><a href="#">Programme</a></li>
+        <li class="deroulant"><button class="deroulant-resp" onclick="visible()">Programme</button>
+          <ul class="sous-deroulant">
+            <li><a href="./programme.html">programme</a></li>
+            <li><a href="#">Dîner</a></li>
+            <li><a href="./spectacle.html">Spectacle</a></li>
+            <li><a href="./soiree.html">Soirée</a></li>
+          </ul>
+        </li>
         <li><a href="../hebergement/hotel.html">Hébergement</a></li>
-        <li><a href="#">Transport</a></li>
-        <li><a href="#">Partenaires</a></li>
+        <li><a href="../transport/transport.html">Transport</a></li>
+        <li><a href="../billeterie/billeterie.html">Billeterie</a></li>
+        <li><a href="../partenaires/partenaires.html">Partenaires</a></li>
       </ul>
     </div>
     <img src="../img/menu-btn.png" alt="" class="menu-hamburger">
@@ -33,12 +42,32 @@
   <header>
     <div class="header-in">
         <div class="feuille">
-            <h1>Dîner</h1>
             <ul>
-                <li>
-                    <h1>Entrée</h1>
-                    <p>13h30 au 158 cours Fauriel</p>
-                </li>
+              <li>
+                <h1>Menu</h1>
+              </li>
+              <li>
+                <h2> Le Menu devrait bientôt être indiqué et mise à jours dans quelques jours</h2>
+              </li>
+              <!--
+              <li>
+                <h2>Entrée</h2>
+                <p>Truc à la pomme de terre</p>
+              </li>
+              <li>
+                <h2>Plat principale</h2>
+                <p>viande + option végan</p>
+              </li>
+              <li>
+                <h2>dessert</h2>
+                <p>Fondant au chocolat</p>
+              </li>
+              <li>
+                <h2>Boisson</h2>
+                <p>Du rouge</p>
+                <p>Du Blanc</p>
+              </li>
+              couleur à changer responsive good normalement-->
             </ul>
         </div>
     </div>
@@ -67,6 +96,7 @@
 
 
   <script>
+
     const menuHamburger = document.querySelector(".menu-hamburger")
     const navLinks = document.querySelector(".nav-links")
  
