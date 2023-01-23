@@ -1,0 +1,52 @@
+.header-in{
+    justify-content: center;
+}
+
+.footer-in{
+    margin: auto;
+    padding: 8px;
+    max-width: fit-content;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: black;
+    border-radius: 20px;
+}
+
+.footer-in a img{
+    width: 30px;
+    height: auto;
+}
+
+.billeterie-body{
+    background-color: rgba(10, 20, 10, 0.8);
+    border: 2px solid rgba(10, 20, 10, 1);
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    max-width: 80%;
+}
+
+.billeterie-info{
+    padding: 20px;
+    margin: 10px;
+}
+
+.billeterie-info > ul >li{
+    color: #ddcbae;
+    list-style: url('/media/examples/rocket.svg') inside;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.billeterie-info h3{
+    margin: 20px;
+}
+
+.alerte{
+    background-color: rgba(80, 0, 0, 0.4);
+    border: 2px solid rgba(50, 0, 0, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}

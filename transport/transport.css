@@ -45,10 +45,3 @@
     margin: 10px;
     text-align: center;
 }
-
-
-@media screen and (max-width: 900px) {
-    .annonce-gala img{
-        width: 100%;
-    }
-}
