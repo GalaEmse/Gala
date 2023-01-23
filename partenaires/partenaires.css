@@ -17,6 +17,9 @@
     width: calc(25% - 84px);
     max-width: 300px;
     color: #de9d35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .partenaire:hover{
     color: black;
