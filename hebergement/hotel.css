@@ -124,6 +124,23 @@ footer p{
         display: none;
     }
     .txt_hotel{
-        width: 80%;
+        width: 90%;
+        padding: 40px 0 40px 0;
+    }
+    .txt_hotel h1{
+        font-size: 1.2em;
+    }
+    .txt_hotel p{
+        font-size: 0.8em;
+    }
+    .txt_hotel ul li{
+        font-size: 0.8em;
+    }
+    .hotel a{
+        padding: 10px;
+    }
+    .hotel a:hover{
+        padding: 10px 5px 10px 5px;
+        transition: 0.3s linear;
     }
 }
