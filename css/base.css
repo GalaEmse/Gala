@@ -94,6 +94,7 @@ header{
 }
 .deroulant:hover .sous-deroulant li{
     display:block;
+    transition: 1s;
 }
 
 .sous-deroulant > li{
@@ -166,11 +167,23 @@ header{
         flex-direction: column;
         align-items: center;
     }
+    .nav-links>ul>li>a{
+        font-size: 1.5em;
+    }    
+    .nav-links>ul>li>button{
+        font-size: 1.5em;
+    }
+    .sous-deroulant>li>a{
+        font-size: 1.2em;
+    }
     .navbar .menu-hamburger{
         display: block;
     }
     .navbar>.nav-links>ul>li{
         margin: 3vh;
         font-size: 1.2em;
+    }
+    .sous-deroulant{
+        background-color: rgba(0, 0, 0, 0);
     }
 }
