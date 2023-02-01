@@ -23,7 +23,7 @@
     <div class="nav-links">
       <ul>
         <li><a href="#">Accueil</a></li>
-        <li class="deroulant"><button class="deroulant-resp" onclick="visible()">Programme</button>
+        <li class="deroulant"><button class="deroulant-resp" onclick="ftest()">Programme</button>
           <ul class="sous-deroulant">
             <li><a href="./Programme/programme.html">programme</a></li>
             <li><a href="./Programme/diner.html">Dîner</a></li>
@@ -75,6 +75,12 @@
   <script>
     const menuHamburger = document.querySelector(".menu-hamburger")
     const navLinks = document.querySelector(".nav-links")
+    const sousDeroulant = document.querySelector(".sous-deroulant")
+
+    function ftest(){
+      sousDeroulant.classList.toggle('mobile-sous-menu')
+      navLinks.classList.toggle('mobile-menu-left')
+    }
 
     menuHamburger.addEventListener('click',()=>{
       navLinks.classList.toggle('mobile-menu')
