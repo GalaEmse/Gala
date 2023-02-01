@@ -14,7 +14,7 @@
     padding: 20px;
     margin: auto;
     /*temp*/
-    width: 50.6vh;
+    width: 70%;
     text-align: center;
 }
 
@@ -38,6 +38,9 @@
 .groupes_dj img{
     width: 40%;
     margin: auto;
+}
+.groupes_rock{
+    margin-top: 20px;
 }
 
 /* bas de page*/

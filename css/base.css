@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    height: 100vh;
+    height: calc(99vh);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -185,5 +185,10 @@ header{
     }
     .sous-deroulant{
         background-color: rgba(0, 0, 0, 0);
+    }
+    .deroulant-resp::after{
+        position: relative;
+        content:" →";/* need change*/
+        font-size: 1em;
     }
 }
