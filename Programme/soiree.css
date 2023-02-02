@@ -14,7 +14,7 @@
     padding: 20px;
     margin: auto;
     /*temp*/
-    width: 50.6vh;
+    width: 70%;
     text-align: center;
 }
 
@@ -39,6 +39,9 @@
     width: 40%;
     margin: auto;
 }
+.groupes_rock{
+    margin-top: 20px;
+}
 
 /* bas de page*/
 .footer-in{
@@ -62,6 +65,9 @@
     }
     .feuille h1{
         font-size: 1.2em;
+    }
+    .feuille h2{
+        font-size: 1em;
     }
     .feuille p{
         font-size: 0.8em;

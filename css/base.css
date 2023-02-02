@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    height: 100vh;
+    height: calc(99vh);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -94,6 +94,7 @@ header{
 }
 .deroulant:hover .sous-deroulant li{
     display:block;
+    transition: 1s;
 }
 
 .sous-deroulant > li{
@@ -147,10 +148,10 @@ header{
         top: 0;
         left: 0;
         position: absolute;
-        background-color: rgba(255,255,255, 0.3);
+        background-color: rgba(100,100,100, 0.5);
         backdrop-filter: blur(7px);
         width: 100%;
-        height: 100vh;
+        height: 95vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -158,11 +159,52 @@ header{
     }
     .nav-links.mobile-menu{
         margin-left: 0;
-    }    
+        padding: 0px;
+        height: 100vh;
+    } 
+    .nav-links.mobile-menu-left{
+        margin-left: -40%;
+        padding: 0px;
+        width: 140%;
+        height: 100vh;
+    }     
     .nav-links ul{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+    .nav-links>ul>li>a{
+        font-size: 1.5em;
+    }    
+    .nav-links>ul>li>button{
+        font-size: 1.5em;
+    }
+    .deroulant .sous-deroulant li{
+        display:block;
+        transition: 1s;
+    }
+    .sous-deroulant{
+        margin-left: -50%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 20%;
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease;
+    }
+    .sous-deroulant.mobile-sous-menu{
+        margin-left: 70%;
+        padding: 0px;
+        height: 100vh;
+    } 
+
+
+
+    .sous-deroulant>li>a{
+        font-size: 1.2em;
     }
     .navbar .menu-hamburger{
         display: block;
@@ -170,5 +212,13 @@ header{
     .navbar>.nav-links>ul>li{
         margin: 3vh;
         font-size: 1.2em;
+    }
+    .sous-deroulant{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .deroulant-resp::after{
+        position: relative;
+        content:" →";/* need change*/
+        font-size: 1em;
     }
 }

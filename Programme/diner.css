@@ -8,32 +8,18 @@
 }
 
 .feuille{
-    background-color: rgba(240, 240, 240, 0.9);
-    /*background-image: url(../img/logo5.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 30vh;*/
     box-shadow: 0px 0px 10px 10px rgb(201, 154, 61);
-    padding: 20px;
     margin: auto;
-    /*temp*/
     width: 50.6vh;
+    min-width: 500px;
     text-align: center;
 }
 
-.feuille ul li{
-    margin-top: calc((100vh/12) - 35px);
-    margin-bottom: calc((100vh/12) - 35px);
+.feuille>img{
+    width: 100%;
+    margin: none;
 }
-.feuille h1{
-    color: rgb(184, 125, 65);
-}
-.feuille h2{
-    color: rgb(184, 125, 65);
-}
-.feuille p{
-    color: black;
-}
+
 
 /* bas de page*/
 .footer-in{

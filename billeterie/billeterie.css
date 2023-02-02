@@ -50,3 +50,28 @@
     margin: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 750px) {
+    .billeterie-body{
+        max-width: 96%;
+    }
+    .billeterie-body h2{
+        font-size: 1.2em;
+    }
+    .billeterie-body h3{
+        font-size: 1.2em;
+    }
+    .billeterie-body p{
+        font-size: 0.8em;
+    }
+    .billeterie-body ul li{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .billeterie-body{
+        max-width: 100%;
+        padding: 5px;
+    }
+}

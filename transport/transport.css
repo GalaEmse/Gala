@@ -45,3 +45,25 @@
     margin: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 750px) {
+    .transport-body{
+        max-width: 96%;
+    }
+    .transport-body h1{
+        font-size: 1.2em;
+    }
+    .transport-body p{
+        font-size: 0.8em;
+    }
+    .transport-body ul li{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .transport-body{
+        max-width: 100%;
+        padding: 5px;
+    }
+}
